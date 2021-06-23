@@ -169,4 +169,4 @@ client.snipes.set(message.channel.id,{
     image:message.attachments.first() ? message.attachments.first().proxyURL : null
 })
 })
-client.login(process.env.TOKEN);
+client.login(config.token);
